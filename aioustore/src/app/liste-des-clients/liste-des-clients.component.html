@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">name</th>
+            <th scope="col">email</th>
+            <th scope="col">del</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor=" let item of collection">
+            <td>{{item.id}}
+            <td>{{item.name}}</td>
+            <td>{{item.email}}</td>
+            <td><i (click)="deleteresto(item.id)" class="fa fa-trash" style="font-size:38px;"></i>
+            </td>
+        </tr>
+    </tbody>
+
+
+</table>

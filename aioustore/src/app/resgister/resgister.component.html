@@ -1,0 +1,31 @@
+<div id="hero-image">
+  <div class="wrapper">
+    
+  
+<div class="signup">
+    <div class="signup-connect">
+      <h1>Create your account</h1>
+      <br>
+      <a href="#" class="btn btn-social btn-facebook"><i class="fa fa-facebook"></i> Sign in with Facebook</a>
+     <br><br>
+      <a href="#" class="btn btn-social btn-twitter"><i class="fa fa-twitter"></i> Sign in with Twitter</a>
+      
+    </div>
+    <div class="signup-classic">
+      <h2>Or use the classical way</h2>
+      <form class="form" [formGroup]="addresto" (ngSubmit)="collectResto()">
+        <fieldset class="username">
+          <input type="text" placeholder="username" formControlName="name" class="form-control" />
+        </fieldset>
+        <fieldset class="email">
+          <input type="email" placeholder="email" formControlName="email" class="form-control" />
+        </fieldset>
+        <fieldset class="password">
+          <input type="password" placeholder="password" formControlName="password" class="form-control"/>
+        </fieldset>
+        <button type="submit" class="btn">sign up</button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>

@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "name": "eren",
+      "email": "eren@gmail.com",
+      "password": "dsfsfsdfsfsf",
+      "id": 2
+    },
+    {
+      "name": "otmane",
+      "email": "oth@gmail.com",
+      "password": "&é\"'(-è_",
+      "id": 3
+    },
+    {
+      "name": "Yassine AIT M'BAREK",
+      "email": "yaitmbarek000@gmail.com",
+      "password": "sps",
+      "id": 4
+    }
+  ]
+}
